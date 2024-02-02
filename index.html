@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+<title>Sales Square Mumbai</title>
+
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link href="./css/output.css" rel="stylesheet" type="text/css" />
+<script src="./js/main.js" defer></script>
+</head>
+<body>
+<button onclick="topFunction()" class="hidden fixed bottom-5 text-lg right-7 z-10 border-none outline-0 bg-red-500 text-white cursor-pointer p-2 rounded-lg hover:bg-gray-500" id="myBtn" title="Go to top">Top</button>
+
+<header class="z-[9999]">
+  <!-- mob-navbar  -->
+  <div class="h-screen w-full top-0 flex flex-col bg-white justify-center items-center fixed lg:hidden transition-all duration-1/5 ease-in-out -left-full z-[999]" data-Mobnav>
+    <button type="button" class="absolute top-6 right-14 cursor-pointer transition duration-all" onclick="closeMenu()" data-closebutton >
+    <i class="fa-solid fa-xmark text-4xl"></i>
+    </button>
+    <ul class="flex flex-col gap-4 text-center list-none font-semibold">
+              <li class="nav-item button hvr-fade" onclick="closeMenu()">
+                <a class="text-xl" class="nav-link" href="#Home">Home</a>
+              </li>
+              <li class="button hvr-fade" onclick="closeMenu()">
+                <a class="text-xl" href="#Aboutus">About Us</a>
+              </li>
+              <li class="button hvr-fade" onclick="closeMenu()">
+                <a class="text-xl" href="#Properties" >Properties</a>
+              </li>
+              <li class=" button hvr-fade" onclick="closeMenu()">
+                <a class="text-xl" href="#Services">Services</a>
+              </li>
+              <li class=" button hvr-fade" onclick="closeMenu()">
+                <a class="text-xl" href="#Contact">Contact</a>
+              </li>
+      </ul>
+  </div>
+
+
+  <nav class="h-[100px] lg:h-32 w-full bg-[#d6d6d6] fixed flex justify-between items-center px-8 top-0" id="NavBar">
+    <a class="ml-8" href="#Home">
+      <img src="./images/sales-square-logo.png" alt="logo" class="w-auto lg:h-[100px] h-14">
+    </a>
+    
+    <!-- desk-Nav -->
+    <div>
+        <ul class="hidden h-32 lg:flex items-center gap-8 font-normal">
+          <li class="button hvr-fade">
+            <a class="text-xl" href="#Home">Home</a>
+          </li>
+          <li class="button hvr-fade">
+            <a class="text-xl" href="#Aboutus">About Us</a>
+          </li>
+          <li class="button hvr-fade">
+            <a class="text-xl" href="#Properties" >Properties</a>
+          </li>
+          <li class="button hvr-fade">
+            <a class="text-xl" href="#Services">Services</a>
+          </li>
+          <li class="button hvr-fade">
+            <a class="text-xl" href="#Contact">Contact</a>
+          </li>
+        </ul>
+
+        <button class="block md:block lg:hidden absolute top-6 right-14 cursor-pointer transition duration-all" type="button" onclick="openMenu()" data-menubutton>
+      <i class="fa-solid fa-bars text-4xl"></i>
+      </button> 
+    </div>
+  </nav>   
+</header>
+
+<div class="mt-20 lg:mt-0"><img src="images/5.png" width="100%" height="auto" /></div>
+
+<!-- hero section  -->
+<section id="Home" class="w-full 2xl:w-[75%] lg:w-[80%] xl:w-[80%] h-[100vh] pt-20 lg:pt-28 lg:gap-4 flex flex-col-reverse lg:flex-row items-center justify-center mx-auto">
+<article class="w-[50%] lg:w-[50%] py-5">
+  <img src="images/Layout.png" class="mt-5" width="556" height="505" />
+</article>
+
+<article class="lg:w-[40%] w-[75%]">
+  <div class="flex mb-8 mt-8 justify-center lg:justify-start lg:items-center gap-4">
+  <img src="images/ICON.png" width="50" height="58" />
+  <h2 class="text-4xl">Welcome</h2>
+  </div>
+<P class="text-[18px]">It is rather content-rich and provides you with tons of information on various aspects of our business. Our team of professionals will happily help you to deal with any issue. Client is our first priority and a great amount of positive testimonials can prove this. Our team of professionals will happily help you to deal with any issue.</P>
+<P class="text-[20px] text-right">Know More...</P>
+</article>
+</section>
+
+<!-- about section  -->
+<section id="Aboutus" class="w-full h-auto lg:h-[100vh] bg-gray-400 text-white mt-1 pt-2">
+  <article class="w-full 2xl:w-[75%] lg:w-[80%] xl:w-[80%] pt-6 lg:pt-24 flex flex-col lg:flex-row items-center justify-center mx-auto my-12">
+    <div class="w-[75%] lg:w-[40%]">
+    <div class="flex mb-8 mt-8 justify-center lg:justify-start lg:items-center gap-4">
+    <img src="images/ICON.png" width="50" height="58" />
+    <h4 class="text-4xl">About us</h4>
+    </div>
+  <P class="text-[18px]">It is rather content-rich and provides you with tons of information on various aspects of our business. Our team of professionals will happily help you to deal with any issue. Client is our first priority and a great amount of positive testimonials can prove this. Our team of professionals will happily help you to deal with any issue.</P>
+  <P class="text-[20px] text-right">Know More...</P>
+  </div>
+  
+  <div class="w-full lg:w-[50%] pt-12 lg:pt-24 inline-flex justify-center">
+    <img src="images/Sales-Square-key.png" width="232" height="501" class="mt-5" />
+  </div>
+  </article>
+
+</section>
+
+<!-- properties section  -->
+<section id="Properties" class="w-full h-auto pt-8 lg:pt-20">
+<article class="w-full 2xl:w-[75%] lg:w-[80%] xl:w-[80%] h-[100vh] my-5 pt-2 lg:gap-4 flex flex-col-reverse lg:flex-row items-center justify-center mx-auto ">
+  <div class="w-[50%] lg:w-[50%] py-5">
+  <img src="images/Layout.png" class="mt-5" width="556" height="505" />
+</div>
+
+<div class="lg:w-[40%] w-[75%]">
+  <div class="flex mb-8 mt-8 justify-center lg:justify-start lg:items-center gap-4">
+  <img src="images/ICON.png" width="50" height="58" />
+  <h4 class="text-4xl">Properties</h4>
+  </div>
+<P class="text-[18px]">It is rather content-rich and provides you with tons of information on various aspects of our business. Our team of professionals will happily help you to deal with any issue. Client is our first priority and a great amount of positive testimonials can prove this. Our team of professionals will happily help you to deal with any issue.</P>
+<P class="text-[20px] text-right">Know More...</P>
+</div>  
+</article>
+
+<div class="w-full h-[1px] bg-[#CCC] shadow-[5px 5px 10px #999999]"></div>
+
+<article class="w-full 2xl:w-[75%] lg:w-[80%] xl:w-[80%] h-full mt-5 pt-3 lg:gap-4 flex flex-col lg:flex-row items-center justify-center mx-auto">
+  
+    <div class="lg:w-[40%] w-[75%] px-5">
+      <div class="flex mb-8 mt-8 justify-center lg:justify-start lg:items-center gap-4">
+        <img src="images/ICON.png" width="50" height="58" />
+        <h4 class="text-4xl">Recent Properties</h4>
+      </div>
+      <P class="text-[18px]">It is rather content-rich and provides you with tons of information on various aspects of our business. Our team of professionals will happily help you to deal with any issue. Client is our first priority and a great amount of positive testimonials can prove this. Our team of professionals will happily help you to deal with any issue.</P>
+      <P class="text-[20px] text-right">Know More...</P>
+    </div>
+    
+    <div class="w-full lg:w-[50%] py-5 lg:py-5 xl:py-5 2xl:py-5 px-5 inline-flex justify-center">
+      <img src="images/buildings.png" width="550" height="604" class="mt-5" />
+  </div>
+
+</article>
+
+<div class="w-full h-[1px] bg-[#CCC] shadow-[5px 5px 10px #999999]"></div>
+
+<article>
+  <img src="images/banner2.png" width="100%" height="auto" /> 
+</article>
+</section>
+
+<!-- services section  -->
+<section id="Services" class="w-full h-auto mx-auto pt-28">
+  <article class="w-full flex flex-col justify-center items-center">
+  <h2 class="text-center text-4xl my-4">Experties</h2>
+  <br />
+<h3 class="text-center text-[18px]">BUY, SELL, RENT RESIDENTIAL AND COMMERCIAL PROPERTIES</h3>
+  </article>
+
+  <article class="w-[75%] md:[80%] lg:w-[75%] xl:w-[75%] 2xl:w-[80%] h-auto mx-auto lg:mx-auto my-12 pt-4 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 md:gap-x-12 grid-rows-6 gap-y-4 lg:grid-rows-2 md:grid-rows-3 md:gap-y-4 justify-center items-center">
+      <div class="w-full 2xl:w-[300px] xl:w-[300px] px-2 text-center flex flex-col items-center justify-center">
+    <img src="images/Buy-Property.png" width="131" height="101">
+    <div>
+      <h5 class="my-3">Buy</h5>
+      <p class="my-3 px-4">It is rather content-rich and provides you with tons of information on various aspects of our business.</p>
+    <div class="breackpoint"></div>
+    </div>
+  </div>
+  
+      <div class="w-full 2xl:w-[300px] xl:w-[300px] px-2 text-center flex flex-col items-center justify-center">
+    <img src="images/Sell-Property.png" width="131" height="101">
+    <div>
+      <h5 class="my-3">SELL</h5>
+      <p class="my-3 px-4">It is rather content-rich and provides you with tons of information on various aspects of our business.</p>
+    <div class="breackpoint"></div>
+    </div>
+  </div>
+  
+      <div class="w-full 2xl:w-[300px] xl:w-[300px] px-2 text-center flex flex-col items-center justify-center">
+    <img src="images/Property-Rent.png" width="131" height="101">
+    <div>
+      <h5 class="my-3">Card title</h5>
+      <p class="my-3 px-4">It is rather content-rich and provides you with tons of information on various aspects of our business.</p>
+    <div class="breackpoint"></div>
+    </div>
+  </div>
+
+    <div class="w-full 2xl:w-[300px] xl:w-[300px] px-2 text-center flex flex-col items-center justify-center">
+    <img src="images/Vastu-shashtra-Property.png" width="131" height="101">
+    <div>
+      <h5 class="my-3">VASTU</h5>
+      <p class="my-3 px-4">It is rather content-rich and provides you with tons of information on various aspects of our business.</p>
+    <div class="breackpoint"></div>
+    </div>
+  </div>
+  
+    <div class="w-full 2xl:w-[300px] xl:w-[300px] px-2 text-center flex flex-col items-center justify-center">
+    <img src="images/Interior-Property.png" width="131" height="101">
+    <div>
+      <h5 class="my-3">Interior</h5>
+      <p class="my-3 px-4">It is rather content-rich and provides you with tons of information on various aspects of our business.</p>
+    <div class="breackpoint"></div>
+    </div>
+  </div>
+  
+    <div class="w-full 2xl:w-[300px] xl:w-[300px] px-2 text-center flex flex-col items-center justify-center">
+    <img src="images/Finance-Property.png" width="131" height="101">
+    <div>
+      <h5 class="my-3">FIANCE</h5>
+      <p class="my-3 px-4">It is rather content-rich and provides you with tons of information on various aspects of our business.</p>
+    <div class="breackpoint"></div>
+    </div>
+  </div>
+  </article>
+
+  <div class="hr"></div>
+
+  <article class="w-full 2xl:w-[75%] lg:w-[80%] xl:w-[80%] h-auto lg:h-[70vh] my-4 flex flex-col-reverse lg:flex-row justify-center items-center mx-auto">
+<div class="w-full lg:w-[50%] inline-flex justify-center items-center">
+  <img src="images/sales-square-logo2.png" width="242" height="242"/>
+</div>
+
+<div class="lg:w-[40%] w-[75%]">
+<h4 class="text-4xl text-center lg:text-left my-2">Sales Square</h4>
+<P class="text-[18px]">It is rather content-rich and provides you with tons of information on various aspects of our business. Our team of professionals will happily help you to deal with any issue. Client is our first priority and a great amount of positive testimonials can prove this. Our team of professionals will happily help you to deal with any issue.</P>
+<button type="button" class="w-24 h-16 text-[18px] outline-1 outline-black hover:bg-red-400 hover:text-white">Know More</button>
+</div>
+  </article>
+
+  <div class="hr"></div>
+
+  <article class="w-full lg:w-[75%] h-auto lg:h-[70vh] py-12 flex flex-col items-center justify-center gap-7 mx-auto">
+  <h2 class="text-4xl font-medium">Floor Plans</h2>
+  <img src="images/floor-plans-7.png" width="767" height="342" />
+  </article>
+
+</section>
+
+<!-- contact section  -->
+<section id="Contact" class="w-full lg:h-screen md:h-auto h-auto pt-2 lg:pt-20 md:pt-4 flex flex-col justify-center items-center mb-4 lg:mb-4 md:mb-4  bg-slate-400">
+<h2 class="w-[90%] md:w-[80%] lg:[60%] text-center text-4xl mt-2 lg:mt-12 md:mt-2 font-semibold text-white">Inquiry Form</h2>
+<p class="w-[90%] md:w-[80%] lg:[60%] text-center my-4 text-white text-[18px]">If you have any queries on Sales please take a moment to fill up this form and one of our sales representative will contact you soon.</p>
+
+<form class="w-[90%] lg:w-[80%] xl:w-[70%] 2xl:w-[70%] md:w-[80%] mx-auto lg:mx-auto md:mx-auto">
+<div class="w-full lg:w-full md:w-full h-auto gap-4 grid grid-cols-1 grid-rows-9 lg:grid-cols-3 lg:grid-rows-4 md:grid-cols-2 md:grid-rows-5 mt-4">
+  <input type="text" placeholder="First Name:" class="h-12 outline outline-2 outline-white placeholder:text-white bg-transparent" required>
+  <input type="text" placeholder="Last Name:" class="h-12 outline outline-2 outline-white placeholder:text-white bg-transparent" required>
+  <input type="tel" placeholder="Mob.:" class="h-12 outline outline-2 outline-white placeholder:text-white bg-transparent" required>
+
+  <input type="email" placeholder="Email"  class="h-12 outline outline-2 outline-white placeholder:text-white bg-transparent" required>
+  <input type="number" placeholder="Budget"  class="h-12 outline outline-2 outline-white placeholder:text-white bg-transparent">
+  <span class="inline-flex justify-evenly items-center">
+    <label for="validationFormCheck1">Commercial: </label><input type="checkbox" id="validationFormCheck1" class="w-8 h-8 lg:w-8  lg:h-8 outline outline-2 outline-white" required>
+    <label for="validationFormCheck2">Residential: </label> <input type="checkbox" id="validationFormCheck2" class="w-8 h-8 outline outline-2 outline-white" required>
+  </span>
+
+  <input type="text" placeholder="Types of Property:" class="h-12 outline outline-2 outline-white placeholder:text-white bg-transparent">
+  <input type="text" placeholder="Designation" class="h-12 outline outline-2 outline-white placeholder:text-white bg-transparent">
+  <input type="text" placeholder="Area:" class="h-12 outline outline-2 outline-white placeholder:text-white bg-transparent">
+</div>
+<div class="w-full md:my-4 my-4 lg:mt-1">
+<textarea placeholder="Description" class="w-full outline outline-2 outline-white placeholder:text-white bg-transparent" cols="80" rows="5"></textarea>
+</div>
+<div class="flex justify-center gap-8 my-4 md:my-4 lg:mt-4 font-medium">
+  <button type="submit" class="w-20 h-8 outline outline-2 outline-green-400 hover:bg-green-400 hover:text-white hover:outline-0">SUBMIT</button>
+  <button type="reset" class="w-20 h-8 outline outline-2 outline-red-500 hover:bg-red-500 hover:text-white hover:outline-0">RESET</button>
+</div>
+</form>
+</section>
+
+<footer>
+  <img src="images/bg.png" width="100%" height="auto" />
+  <p class="text-center h-3v my-0">Disclaimer | Terms &amp; Conditions | Privacy Policy | Site Map</p>
+  <p class="text-center h-3v my-0">Add.: India – 400 097. Malad, Mumbai | Tel.: 9922881106</p>
+</footer>
+
+
+</body>
+</html>
+
